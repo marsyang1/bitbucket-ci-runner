@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:alpine
+FROM alpine:latest
 MAINTAINER MarsYang
 
 # Create dirs and users
