@@ -10,6 +10,7 @@ RUN apk update \
      wget \
      curl \
      git \
+     openssh-client \
      ansible \
      # for base64
      coreutils
