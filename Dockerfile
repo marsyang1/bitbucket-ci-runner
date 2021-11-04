@@ -1,5 +1,5 @@
 FROM alpine:latest
-MAINTAINER MarsYang
+LABEL org.opencontainers.image.authors="marsyang1"
 
 # Create dirs and users
 RUN mkdir -p /opt/atlassian/bitbucketci/agent/build
