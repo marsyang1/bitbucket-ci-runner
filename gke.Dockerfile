@@ -3,7 +3,6 @@ LABEL org.opencontainers.image.authors="marsyang1"
 
 # Create dirs and users
 RUN mkdir -p /opt/atlassian/bitbucketci/agent/build
-RUN adduser -s /bin/sh -u 1000 -D pipelines
 
 RUN gcloud components install gke-gcloud-auth-plugin kubectl
 RUN apk update \
