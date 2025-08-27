@@ -1,4 +1,4 @@
-FROM alpine:3.18.2
+FROM alpine:3.22
 LABEL org.opencontainers.image.authors="marsyang1"
 
 # Create dirs and users
